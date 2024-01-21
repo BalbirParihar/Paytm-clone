@@ -1,0 +1,73 @@
+.section-11, .section-12{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    padding-bottom: 4.8rem;
+}
+
+.section-11 h1{
+    width: var(--width-2);
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: var(--black);
+    line-height: 5rem;
+}
+
+.section-11-wallet, .section-12-wallet{
+    width: var(--width-2);
+    margin: auto;
+    border-radius: 1rem;
+    background-color: var(--grey-light);
+    padding: 8rem 0rem 8rem 11.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-11-wallet-left, .section-12-wallet-left{
+    width: 45%;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.section-11-wallet-left-header, .section-12-wallet-left-header{
+    display: flex;
+    align-items: center;
+}
+.section-11-wallet-left-header img, .section-12-wallet-left-header img{
+    height: 7.7rem;
+    padding-right: 1.2rem;
+}
+
+.section-11-wallet-left-header div, .section-12-wallet-left-header div{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-11-wallet-left-body, .section-12-wallet-left-body{
+    margin-top: 4.8rem;
+}
+.section-11-wallet-left-body h2, .section-12-wallet-left-body h2{
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 4.6rem;
+    width: 39rem;
+}
+
+.section-11-wallet-left-body p, .section-12-wallet-left-body p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    padding: 2.4rem 0 3rem;
+}
+
+.section-11-wallet-right, .section-12-wallet-right{
+    width: 51%;
+}
+.section-11-wallet-right img,
+.section-12-wallet-right img{
+    width: 53.9rem;
+}

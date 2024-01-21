@@ -1,0 +1,60 @@
+.section-8, .section-10 {
+  position: relative;
+  background-color: var(--grey-light);
+
+  padding-bottom: 4.8rem;
+  margin-bottom:10rem;
+}
+
+.section-8-wrapper, .section-10-wrapper {
+  position: relative;
+  width: var(--width-2);
+  margin: auto;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 0;
+  z-index: 1;
+}
+
+.section-8-left, .section-10-left {
+  width: 472px;
+}
+
+.section-8-left img, .section-10-left img {
+  max-width: 100%;
+}
+
+.section-8-right, .section-10-right {
+  width: 46%;
+}
+
+.section-8-right-money, .section-10-right-money {
+  height: 54px;
+  padding-right: 12px;
+}
+
+.section-8-right h2, .section-10-right h2 {
+  margin-top: 4.8rem;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.6rem;
+  width: 390px;
+}
+
+.section-8-right p, .section-10-right p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  padding: 24px 0;
+}
+
+.section-8-background {
+  height: 587px;
+  position: absolute;
+  top: 4.8rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+}

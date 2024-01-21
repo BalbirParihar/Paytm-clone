@@ -1,0 +1,184 @@
+
+
+.section-14-wrapper {
+  width: var(--widht-2);
+  margin: auto;
+  margin-top: 12rem;
+  padding: 6rem 0 6rem 6rem;
+  margin-bottom: 3.3rem;
+  display: flex;
+}
+
+.section-14-wrapper:last-of-type {
+  margin-top: 0;
+}
+
+.section-14-child {
+  display: flex;
+}
+
+.section-14-child-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 4rem;
+  width: 20rem;
+}
+
+.section-14-child-left img {
+  width: 15rem;
+  margin-right: 1.5rem;
+}
+
+.section-14-child-left p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.section-14-child-left p a {
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  padding-top: 1rem;
+  color: var(--light-blue);
+  text-decoration: none;
+}
+
+.section-14-child-right-wrapper {
+  position: relative;
+  overflow: visible;
+  z-index: 0;
+}
+
+.section-14-child-right {
+  display: flex;
+  width: 87rem;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+
+.section-14-child-right {
+  -ms-overflow-style: none; /*internet explorer*/
+  scrollbar-width: none; /*firefox*/
+}
+.section-14-child-right::-webkit-scrollbar {
+  display: none; /*safari and chrome*/
+}
+
+.section-14-child-right-cards {
+  display: flex;
+}
+
+.section-14-child-right-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: var(--light-blue);
+  opacity: 0.7;
+  padding: 5px 0;
+  white-space: normal;
+  text-align: center;
+  cursor: pointer;
+  width: 15.5rem;
+  min-width: 15.5rem;
+  height: 23rem;
+  min-height: 23rem;
+  margin-right: 3.6rem;
+}
+
+.section-14-child-right-card div {
+  width: 14.5rem;
+  height: 15.8rem;
+  border: 6px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.section-14-child-right-card div img {
+  width: 14.5rem;
+  height: 15.8rem;
+}
+
+.section-14-child-right-card span {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--white);
+  width: 11.4rem;
+  height: 7.2rem;
+  padding: 1.6rem 0;
+  display: block;
+  white-space: normal;
+}
+
+.section-14-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  margin: auto;
+  overflow: visible;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  border-radius: 50%;
+  background-color: var(--white);
+  border: 3px solid var(--light-blue);
+  transition: border 0.2s ease;
+  padding: 4px;
+}
+.section-14-controls img {
+  height: 100%;
+}
+
+.section-14-controls:hover {
+  border: 3px solid var(--blue);
+}
+
+.section-14-controls:hover img {
+  filter: invert(72%) sepia(49%) saturate(5406%) hue-rotate(154deg)
+    brightness(96%) contrast(102%);
+}
+
+.section-14-controls.left {
+  /* transform: rotate(180deg); */
+  left: -1.5rem;
+  opacity: 0;
+}
+
+.section-14-controls.right {
+  right: -1.5rem;
+}
+
+.section-14-child-right-card.part-2 {
+  align-items: flex-start;
+  text-align: unset;
+  padding: 3rem 1.1rem 1.1rem;
+}
+
+.section-14-child-right-card.section-14-child-right-card.part-2 img {
+  width: 7.2rem;
+  height: 7.2rem;
+  margin: 0 0 2.4rem;
+  border-radius: 100%;
+}
+
+.section-14-child-right-card.part-2 div {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: var(--white);
+}
+
+.section-14-child-right-card.part-2 div span {
+  padding-top: 0.3rem;
+  font-size: 1.2rem;
+  display: block;
+}
